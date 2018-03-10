@@ -1,0 +1,32 @@
+{
+  "name": "holojson_server",
+  "version": "1.0.0",
+  "description": "JSON language support server for Taurus",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node .build/postinstall.js",
+    "launch": "npx nodemon ./src/index.js -i ./data"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandomerSharp/HoloJSON_server.git"
+  },
+  "keywords": [
+    "HoloCode"
+  ],
+  "author": "Soap <solitarysoap@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RandomerSharp/HoloJSON_server/issues"
+  },
+  "homepage": "https://github.com/RandomerSharp/HoloJSON_server#readme",
+  "dependencies": {
+    "highlight.js": "^9.12.0",
+    "rpc.js": "^0.4.3",
+    "vscode-uri": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
